@@ -8,5 +8,8 @@
 
  module.exports = function (set, get, has) {
 
+    //listen server
+    set('web.port', 3000);
+
 
  };
